@@ -1,3 +1,12 @@
+/*
+ * To Compile in C++, first you get to the directory of the file you want to compile. 
+ * Next, we type "g++ name_of_file.cpp". This then creates file called 'a.out' which 
+ * is used to execute the code.(Like creating a class file in Java). 
+ * Finally, we use "./a.out" to run the code once its compiled. './' is the syntax for 
+ * running C++ code. 
+ */
+
+
 #include <iostream>
 using namespace std;
 
