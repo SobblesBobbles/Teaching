@@ -21,13 +21,30 @@
 using namespace std;
 
 
-int gcd (int a, int b){}
+int gcd (int a, int b){
+
+	int ans;
+
+	for (int i = 2; i<max(a,b); i++){	// goes to max of two numbers
+
+		if (b%i==0 && a%i==0){	//checks that both are divisible
+			ans = i;			//assignment
+		}
+	}
+
+	return ans;					//returns the assignment
+
+
+}
 
 
 
 int main(){
 
+	int a, b;
+	cin>>a;cin>>b;
 
+	cout<<gcd(a,b)<<endl;
 
 
 
