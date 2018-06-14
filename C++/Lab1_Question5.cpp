@@ -42,7 +42,7 @@ for (int i = 2; i<num; i++){
 	}
 }
 
-for (int i = 0; i<num; i++){
+for (int i = 2; i<num; i++){
 	if(array[i]==false){
 		cout<<i<<endl;
 	}
