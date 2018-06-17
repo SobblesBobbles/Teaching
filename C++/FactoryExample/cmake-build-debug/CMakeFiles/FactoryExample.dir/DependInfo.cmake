@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/stephenobrien/CLionProjects/FactoryExample/Pizza.cpp" "/Users/stephenobrien/CLionProjects/FactoryExample/cmake-build-debug/CMakeFiles/FactoryExample.dir/Pizza.cpp.o"
   "/Users/stephenobrien/CLionProjects/FactoryExample/PizzaFactory.cpp" "/Users/stephenobrien/CLionProjects/FactoryExample/cmake-build-debug/CMakeFiles/FactoryExample.dir/PizzaFactory.cpp.o"
   "/Users/stephenobrien/CLionProjects/FactoryExample/PizzaShop.cpp" "/Users/stephenobrien/CLionProjects/FactoryExample/cmake-build-debug/CMakeFiles/FactoryExample.dir/PizzaShop.cpp.o"
+  "/Users/stephenobrien/CLionProjects/FactoryExample/Ticket.cpp" "/Users/stephenobrien/CLionProjects/FactoryExample/cmake-build-debug/CMakeFiles/FactoryExample.dir/Ticket.cpp.o"
   "/Users/stephenobrien/CLionProjects/FactoryExample/main.cpp" "/Users/stephenobrien/CLionProjects/FactoryExample/cmake-build-debug/CMakeFiles/FactoryExample.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

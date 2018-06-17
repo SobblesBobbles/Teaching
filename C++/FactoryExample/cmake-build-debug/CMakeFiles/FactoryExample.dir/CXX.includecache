@@ -11,6 +11,8 @@ DominosPizza.h
 /Users/stephenobrien/CLionProjects/FactoryExample/DominosPizza.h
 HawaiianPizza.h
 /Users/stephenobrien/CLionProjects/FactoryExample/HawaiianPizza.h
+Ticket.h
+/Users/stephenobrien/CLionProjects/FactoryExample/Ticket.h
 
 /Users/stephenobrien/CLionProjects/FactoryExample/DominosPizza.h
 PizzaShop.h
@@ -65,6 +67,8 @@ Pizza.h
 /Users/stephenobrien/CLionProjects/FactoryExample/PizzaShop.cpp
 PizzaShop.h
 /Users/stephenobrien/CLionProjects/FactoryExample/PizzaShop.h
+Ticket.h
+/Users/stephenobrien/CLionProjects/FactoryExample/Ticket.h
 HawaiianPizza.h
 /Users/stephenobrien/CLionProjects/FactoryExample/HawaiianPizza.h
 PizzaFactory.h
@@ -75,6 +79,16 @@ Pizza.h
 /Users/stephenobrien/CLionProjects/FactoryExample/Pizza.h
 PizzaFactory.h
 /Users/stephenobrien/CLionProjects/FactoryExample/PizzaFactory.h
+Ticket.h
+/Users/stephenobrien/CLionProjects/FactoryExample/Ticket.h
+
+/Users/stephenobrien/CLionProjects/FactoryExample/Ticket.cpp
+Ticket.h
+/Users/stephenobrien/CLionProjects/FactoryExample/Ticket.h
+
+/Users/stephenobrien/CLionProjects/FactoryExample/Ticket.h
+iostream
+-
 
 /Users/stephenobrien/CLionProjects/FactoryExample/main.cpp
 iostream
@@ -87,4 +101,6 @@ PizzaShop.h
 /Users/stephenobrien/CLionProjects/FactoryExample/PizzaShop.h
 DominosPizza.h
 /Users/stephenobrien/CLionProjects/FactoryExample/DominosPizza.h
+Ticket.h
+/Users/stephenobrien/CLionProjects/FactoryExample/Ticket.h
 

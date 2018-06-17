@@ -7,6 +7,7 @@
 
 #include "Pizza.h"
 #include "PizzaFactory.h"
+#include "Ticket.h"
 
 
 class PizzaShop {
@@ -14,7 +15,8 @@ public:
 
     PizzaShop();
 
-   virtual Pizza* makePizza(string type)=0;  //abstract makePizza, Pizzashop cannot be created as an object.
+
+   virtual Pizza* makePizza(Ticket* t)=0;  //abstract makePizza, Pizzashop cannot be created as an object.
 
 
     PizzaFactory* factory;

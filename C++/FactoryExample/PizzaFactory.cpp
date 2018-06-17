@@ -11,18 +11,20 @@
 
 Pizza* PizzaFactory::createPizza(string type) {
 
-
+    cout<<"Enters the factory"<<"Type = "<<type<<endl;
     Pizza *pizza;               //pizza pointer
 
     if (type == "Hawaiian") {
-
+        cout<<"Customer has asked for a Hawaiian Pizza"<<endl;
         pizza = new HawaiianPizza();        //this class actually creates the pizza
-                        // prepares it
+
     }
     else if (type== "Pepperoni"){
         pizza = new PepperoniPizza();
 
+
     }
-    pizza->prepare();
+    pizza->prepare();               // prepares it
+
     return pizza;
 }

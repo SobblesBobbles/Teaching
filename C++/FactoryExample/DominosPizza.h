@@ -11,7 +11,7 @@ class DominosPizza : public PizzaShop{
 
 public:
     DominosPizza();         //default constructor
-    Pizza* makePizza(string type) override;     //overridden makePizza method which returns a pointer Pizza
+    Pizza* makePizza(Ticket* t) override;     //overridden makePizza method which returns a pointer Pizza
 
 };
 

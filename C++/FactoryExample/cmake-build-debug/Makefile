@@ -285,6 +285,33 @@ PizzaShop.cpp.s:
 	$(MAKE) -f CMakeFiles/FactoryExample.dir/build.make CMakeFiles/FactoryExample.dir/PizzaShop.cpp.s
 .PHONY : PizzaShop.cpp.s
 
+Ticket.o: Ticket.cpp.o
+
+.PHONY : Ticket.o
+
+# target to build an object file
+Ticket.cpp.o:
+	$(MAKE) -f CMakeFiles/FactoryExample.dir/build.make CMakeFiles/FactoryExample.dir/Ticket.cpp.o
+.PHONY : Ticket.cpp.o
+
+Ticket.i: Ticket.cpp.i
+
+.PHONY : Ticket.i
+
+# target to preprocess a source file
+Ticket.cpp.i:
+	$(MAKE) -f CMakeFiles/FactoryExample.dir/build.make CMakeFiles/FactoryExample.dir/Ticket.cpp.i
+.PHONY : Ticket.cpp.i
+
+Ticket.s: Ticket.cpp.s
+
+.PHONY : Ticket.s
+
+# target to generate assembly for a file
+Ticket.cpp.s:
+	$(MAKE) -f CMakeFiles/FactoryExample.dir/build.make CMakeFiles/FactoryExample.dir/Ticket.cpp.s
+.PHONY : Ticket.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -339,6 +366,9 @@ help:
 	@echo "... PizzaShop.o"
 	@echo "... PizzaShop.i"
 	@echo "... PizzaShop.s"
+	@echo "... Ticket.o"
+	@echo "... Ticket.i"
+	@echo "... Ticket.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

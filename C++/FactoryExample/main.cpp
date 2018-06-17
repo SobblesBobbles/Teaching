@@ -3,24 +3,29 @@
 #include "HawaiianPizza.h"
 #include "PizzaShop.h"
 #include "DominosPizza.h"
+#include "Ticket.h"
 using namespace std;
 
 
 int main() {
 
+    Ticket* t = new Ticket("Hawaiian");
 
 
  PizzaShop* dominos = new DominosPizza();       //creates a pizza shop with the ability to use factory inside
 
-    Pizza* pizza = dominos->makePizza("Hawaiian");  //pizza pointer is returned from the pizzashops internal factory
+    Pizza* pizza = dominos->makePizza(t);  //pizza pointer is returned from the pizzashops internal factory
                                                     //that makes the pizza based on the type.
 
-    pizza = dominos->makePizza("Pepperoni");
+
+    Ticket* t2 = new Ticket("Pepperoni");
+
+    Pizza* nextPizza = dominos->makePizza(t2);
 
 
 
 
-    cout<<"Name is " <<pizza->getName()<<endl;                   // just an example of the attributes, made public for demonstration.
+
 
 
 

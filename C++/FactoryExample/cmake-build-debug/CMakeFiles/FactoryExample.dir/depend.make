@@ -7,6 +7,7 @@ CMakeFiles/FactoryExample.dir/DominosPizza.cpp.o: ../HawaiianPizza.h
 CMakeFiles/FactoryExample.dir/DominosPizza.cpp.o: ../Pizza.h
 CMakeFiles/FactoryExample.dir/DominosPizza.cpp.o: ../PizzaFactory.h
 CMakeFiles/FactoryExample.dir/DominosPizza.cpp.o: ../PizzaShop.h
+CMakeFiles/FactoryExample.dir/DominosPizza.cpp.o: ../Ticket.h
 
 CMakeFiles/FactoryExample.dir/HawaiianPizza.cpp.o: ../HawaiianPizza.cpp
 CMakeFiles/FactoryExample.dir/HawaiianPizza.cpp.o: ../HawaiianPizza.h
@@ -30,11 +31,16 @@ CMakeFiles/FactoryExample.dir/PizzaShop.cpp.o: ../Pizza.h
 CMakeFiles/FactoryExample.dir/PizzaShop.cpp.o: ../PizzaFactory.h
 CMakeFiles/FactoryExample.dir/PizzaShop.cpp.o: ../PizzaShop.cpp
 CMakeFiles/FactoryExample.dir/PizzaShop.cpp.o: ../PizzaShop.h
+CMakeFiles/FactoryExample.dir/PizzaShop.cpp.o: ../Ticket.h
+
+CMakeFiles/FactoryExample.dir/Ticket.cpp.o: ../Ticket.cpp
+CMakeFiles/FactoryExample.dir/Ticket.cpp.o: ../Ticket.h
 
 CMakeFiles/FactoryExample.dir/main.cpp.o: ../DominosPizza.h
 CMakeFiles/FactoryExample.dir/main.cpp.o: ../HawaiianPizza.h
 CMakeFiles/FactoryExample.dir/main.cpp.o: ../Pizza.h
 CMakeFiles/FactoryExample.dir/main.cpp.o: ../PizzaFactory.h
 CMakeFiles/FactoryExample.dir/main.cpp.o: ../PizzaShop.h
+CMakeFiles/FactoryExample.dir/main.cpp.o: ../Ticket.h
 CMakeFiles/FactoryExample.dir/main.cpp.o: ../main.cpp
 

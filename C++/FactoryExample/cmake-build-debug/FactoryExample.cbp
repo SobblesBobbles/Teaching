@@ -118,6 +118,12 @@
 		<Unit filename="/Users/stephenobrien/CLionProjects/FactoryExample/PizzaShop.h">
 			<Option target="FactoryExample"/>
 		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/FactoryExample/Ticket.cpp">
+			<Option target="FactoryExample"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/FactoryExample/Ticket.h">
+			<Option target="FactoryExample"/>
+		</Unit>
 		<Unit filename="/Users/stephenobrien/CLionProjects/FactoryExample/main.cpp">
 			<Option target="FactoryExample"/>
 		</Unit>
