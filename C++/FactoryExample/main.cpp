@@ -22,6 +22,11 @@ int main() {
 
     Pizza* nextPizza = dominos->makePizza(t2);
 
+    delete dominos;
+    delete pizza;
+    delete t;
+    delete t2;
+
 
 
 

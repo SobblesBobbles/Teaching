@@ -15,6 +15,7 @@ class Ticket {
 public:
     Ticket(string type);
 
+
     string typeOfPizza;
    static int orderNumber;
 

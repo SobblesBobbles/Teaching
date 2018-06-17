@@ -15,8 +15,8 @@ void Pizza::prepare() {
     cout<<"The sauce "<<sauce<<" is put on the "<<dough<< " dough."<<endl;
 
 
-    for (int i=0; i<toppings.size(); i++) {
-        cout << "Toppings ==> " << toppings[i] << "\n";
+    for (auto const i :toppings){
+        cout << "Toppings ==> " << i << "\n";
     }
     cout<<"Preparation finished."<<endl;
     cout<<"**********"<<endl;
