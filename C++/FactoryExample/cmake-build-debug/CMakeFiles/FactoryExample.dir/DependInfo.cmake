@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/stephenobrien/CLionProjects/FactoryExample/DominosPizza.cpp" "/Users/stephenobrien/CLionProjects/FactoryExample/cmake-build-debug/CMakeFiles/FactoryExample.dir/DominosPizza.cpp.o"
+  "/Users/stephenobrien/CLionProjects/FactoryExample/FourStarPizza.cpp" "/Users/stephenobrien/CLionProjects/FactoryExample/cmake-build-debug/CMakeFiles/FactoryExample.dir/FourStarPizza.cpp.o"
   "/Users/stephenobrien/CLionProjects/FactoryExample/HawaiianPizza.cpp" "/Users/stephenobrien/CLionProjects/FactoryExample/cmake-build-debug/CMakeFiles/FactoryExample.dir/HawaiianPizza.cpp.o"
   "/Users/stephenobrien/CLionProjects/FactoryExample/PepperoniPizza.cpp" "/Users/stephenobrien/CLionProjects/FactoryExample/cmake-build-debug/CMakeFiles/FactoryExample.dir/PepperoniPizza.cpp.o"
   "/Users/stephenobrien/CLionProjects/FactoryExample/Pizza.cpp" "/Users/stephenobrien/CLionProjects/FactoryExample/cmake-build-debug/CMakeFiles/FactoryExample.dir/Pizza.cpp.o"

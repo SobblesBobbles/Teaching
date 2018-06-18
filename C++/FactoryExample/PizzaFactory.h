@@ -14,7 +14,8 @@ class PizzaFactory {
 
 public:
 
-    Pizza* createPizza(string type);
+    Pizza* createPizza(string type, int size);
+
 };
 
 

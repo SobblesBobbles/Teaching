@@ -19,6 +19,7 @@ public:
      string getName();
 
  protected:
+     int size;
     string name;
     string dough;
     string sauce;

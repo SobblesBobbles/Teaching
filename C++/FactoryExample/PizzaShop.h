@@ -14,12 +14,17 @@ class PizzaShop {
 public:
 
     PizzaShop();
+    ~PizzaShop();
+    void Process(Ticket* t);
 
 
    virtual Pizza* makePizza(Ticket* t)=0;  //abstract makePizza, Pizzashop cannot be created as an object.
 
 
     PizzaFactory* factory;
+
+    Ticket* ticket;
+
 
 };
 

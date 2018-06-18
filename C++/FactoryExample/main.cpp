@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 
-    Ticket* t = new Ticket("Hawaiian");
+    Ticket* t = new Ticket("Hawaiian",10);
 
 
  PizzaShop* dominos = new DominosPizza();       //creates a pizza shop with the ability to use factory inside
@@ -18,14 +18,15 @@ int main() {
                                                     //that makes the pizza based on the type.
 
 
-    Ticket* t2 = new Ticket("Pepperoni");
+    Ticket* t2 = new Ticket("Pepperoni",12);
 
     Pizza* nextPizza = dominos->makePizza(t2);
 
-    delete dominos;
+
     delete pizza;
     delete t;
     delete t2;
+
 
 
 

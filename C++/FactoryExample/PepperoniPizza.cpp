@@ -4,11 +4,12 @@
 
 #include "PepperoniPizza.h"
 
-PepperoniPizza::PepperoniPizza() {        //type of Pizza
+PepperoniPizza::PepperoniPizza(int sizeOfPizza) {        //type of Pizza
     name = "Pepperoni Pizza";
     dough = "Thick";
     sauce = "BBQ";
     toppings.push_back("Pepperoni");
+    size = sizeOfPizza;
 
 }
 void PepperoniPizza::prepare() {     //Not used at moment

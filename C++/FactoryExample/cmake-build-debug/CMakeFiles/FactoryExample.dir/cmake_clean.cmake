@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FactoryExample.dir/PizzaFactory.cpp.o"
   "CMakeFiles/FactoryExample.dir/PepperoniPizza.cpp.o"
   "CMakeFiles/FactoryExample.dir/Ticket.cpp.o"
+  "CMakeFiles/FactoryExample.dir/FourStarPizza.cpp.o"
   "FactoryExample.pdb"
   "FactoryExample"
 )

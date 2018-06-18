@@ -18,6 +18,16 @@ Ticket.h
 PizzaShop.h
 /Users/stephenobrien/CLionProjects/FactoryExample/PizzaShop.h
 
+/Users/stephenobrien/CLionProjects/FactoryExample/FourStarPizza.cpp
+FourStarPizza.h
+/Users/stephenobrien/CLionProjects/FactoryExample/FourStarPizza.h
+
+/Users/stephenobrien/CLionProjects/FactoryExample/FourStarPizza.h
+PizzaFactory.h
+/Users/stephenobrien/CLionProjects/FactoryExample/PizzaFactory.h
+PizzaShop.h
+/Users/stephenobrien/CLionProjects/FactoryExample/PizzaShop.h
+
 /Users/stephenobrien/CLionProjects/FactoryExample/HawaiianPizza.cpp
 HawaiianPizza.h
 /Users/stephenobrien/CLionProjects/FactoryExample/HawaiianPizza.h

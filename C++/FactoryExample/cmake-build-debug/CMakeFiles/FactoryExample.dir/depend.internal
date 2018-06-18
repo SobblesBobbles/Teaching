@@ -9,6 +9,13 @@ CMakeFiles/FactoryExample.dir/DominosPizza.cpp.o
  /Users/stephenobrien/CLionProjects/FactoryExample/PizzaFactory.h
  /Users/stephenobrien/CLionProjects/FactoryExample/PizzaShop.h
  /Users/stephenobrien/CLionProjects/FactoryExample/Ticket.h
+CMakeFiles/FactoryExample.dir/FourStarPizza.cpp.o
+ /Users/stephenobrien/CLionProjects/FactoryExample/FourStarPizza.cpp
+ /Users/stephenobrien/CLionProjects/FactoryExample/FourStarPizza.h
+ /Users/stephenobrien/CLionProjects/FactoryExample/Pizza.h
+ /Users/stephenobrien/CLionProjects/FactoryExample/PizzaFactory.h
+ /Users/stephenobrien/CLionProjects/FactoryExample/PizzaShop.h
+ /Users/stephenobrien/CLionProjects/FactoryExample/Ticket.h
 CMakeFiles/FactoryExample.dir/HawaiianPizza.cpp.o
  /Users/stephenobrien/CLionProjects/FactoryExample/HawaiianPizza.cpp
  /Users/stephenobrien/CLionProjects/FactoryExample/HawaiianPizza.h

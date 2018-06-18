@@ -150,6 +150,33 @@ DominosPizza.cpp.s:
 	$(MAKE) -f CMakeFiles/FactoryExample.dir/build.make CMakeFiles/FactoryExample.dir/DominosPizza.cpp.s
 .PHONY : DominosPizza.cpp.s
 
+FourStarPizza.o: FourStarPizza.cpp.o
+
+.PHONY : FourStarPizza.o
+
+# target to build an object file
+FourStarPizza.cpp.o:
+	$(MAKE) -f CMakeFiles/FactoryExample.dir/build.make CMakeFiles/FactoryExample.dir/FourStarPizza.cpp.o
+.PHONY : FourStarPizza.cpp.o
+
+FourStarPizza.i: FourStarPizza.cpp.i
+
+.PHONY : FourStarPizza.i
+
+# target to preprocess a source file
+FourStarPizza.cpp.i:
+	$(MAKE) -f CMakeFiles/FactoryExample.dir/build.make CMakeFiles/FactoryExample.dir/FourStarPizza.cpp.i
+.PHONY : FourStarPizza.cpp.i
+
+FourStarPizza.s: FourStarPizza.cpp.s
+
+.PHONY : FourStarPizza.s
+
+# target to generate assembly for a file
+FourStarPizza.cpp.s:
+	$(MAKE) -f CMakeFiles/FactoryExample.dir/build.make CMakeFiles/FactoryExample.dir/FourStarPizza.cpp.s
+.PHONY : FourStarPizza.cpp.s
+
 HawaiianPizza.o: HawaiianPizza.cpp.o
 
 .PHONY : HawaiianPizza.o
@@ -351,6 +378,9 @@ help:
 	@echo "... DominosPizza.o"
 	@echo "... DominosPizza.i"
 	@echo "... DominosPizza.s"
+	@echo "... FourStarPizza.o"
+	@echo "... FourStarPizza.i"
+	@echo "... FourStarPizza.s"
 	@echo "... HawaiianPizza.o"
 	@echo "... HawaiianPizza.i"
 	@echo "... HawaiianPizza.s"

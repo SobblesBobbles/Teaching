@@ -10,7 +10,7 @@
 
 class PepperoniPizza : public Pizza{
 public:
-    PepperoniPizza();
+    PepperoniPizza(int size);
     void prepare();
 
 

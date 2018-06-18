@@ -4,12 +4,13 @@
 
 #include "HawaiianPizza.h"
 
-HawaiianPizza::HawaiianPizza() {        //type of Pizza
+HawaiianPizza::HawaiianPizza(int sizeOfPizza) {        //type of Pizza
     name = "Hawaiian Pizza";
     dough = "Thin";
     sauce = "Hawaiian";
     toppings.push_back("Pineapple");
     toppings.push_back("Ham");
+    size = sizeOfPizza;
 }
 void HawaiianPizza::prepare() {     //Not used at moment
 

@@ -9,18 +9,19 @@
 
 
 
-Pizza* PizzaFactory::createPizza(string type) {
+Pizza* PizzaFactory::createPizza(string type, int size) {
 
     cout<<"Enters the factory"<<"Type = "<<type<<endl;
+    cout<<"Customer wants a size of "<<size<<" inches."<<endl;
     Pizza *pizza;               //pizza pointer
 
     if (type == "Hawaiian") {
         cout<<"Customer has asked for a Hawaiian Pizza"<<endl;
-        pizza = new HawaiianPizza();        //this class actually creates the pizza
+        pizza = new (nothrow) HawaiianPizza(size);        //this class actually creates the pizza
 
     }
     else if (type== "Pepperoni"){
-        pizza = new PepperoniPizza();
+        pizza = new (nothrow) PepperoniPizza(size); //only make it if space is available. otherwise sets to null
 
 
     }
@@ -30,3 +31,5 @@ Pizza* PizzaFactory::createPizza(string type) {
     return pizza;
 
 }
+
+

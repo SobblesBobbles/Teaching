@@ -4,10 +4,11 @@
 
 #include "Ticket.h"
 
-Ticket::Ticket(string type){
+Ticket::Ticket(string type,int size){
 
     orderNumber+=1;
     typeOfPizza = type;
+    sizeOfPizza = size;
 
 }
 

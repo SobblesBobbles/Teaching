@@ -13,11 +13,12 @@ using namespace std;
 class Ticket {
 
 public:
-    Ticket(string type);
+    Ticket(string type,int size);
 
 
     string typeOfPizza;
    static int orderNumber;
+    int sizeOfPizza;
 
     int getNumOfTickets();
 

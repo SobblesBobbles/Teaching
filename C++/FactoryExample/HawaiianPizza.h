@@ -11,7 +11,7 @@
 
 public:
      void prepare();
-    HawaiianPizza();
+    HawaiianPizza(int sizeOfPizza);
 };
 
 

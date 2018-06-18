@@ -11,8 +11,9 @@ void Pizza::prepare() {
 
 
     cout<<"Preparing a "<<name<<endl;
-    cout<<"The Dough is put on "<<dough<<endl;
+    cout<<"The dough is put on "<<dough<<"."<<endl;
     cout<<"The sauce "<<sauce<<" is put on the "<<dough<< " dough."<<endl;
+    cout<<"The size is "<<size<<"."<<endl;
 
 
     for (auto const i :toppings){

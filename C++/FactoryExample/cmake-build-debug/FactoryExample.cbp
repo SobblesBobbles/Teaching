@@ -88,6 +88,12 @@
 		<Unit filename="/Users/stephenobrien/CLionProjects/FactoryExample/DominosPizza.h">
 			<Option target="FactoryExample"/>
 		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/FactoryExample/FourStarPizza.cpp">
+			<Option target="FactoryExample"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/FactoryExample/FourStarPizza.h">
+			<Option target="FactoryExample"/>
+		</Unit>
 		<Unit filename="/Users/stephenobrien/CLionProjects/FactoryExample/HawaiianPizza.cpp">
 			<Option target="FactoryExample"/>
 		</Unit>

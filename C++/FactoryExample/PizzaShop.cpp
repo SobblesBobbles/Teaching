@@ -16,13 +16,26 @@ PizzaShop::PizzaShop(){
 
 Pizza* PizzaShop::makePizza(Ticket* t){
 
-    string type = t->typeOfPizza;
-    Pizza* pizza;
-    cout<<"The order number is "<<t->orderNumber<<endl;
+    ticket = t;
 
-    pizza = factory->createPizza(type);
+
+    Pizza* pizza;
+
+    Process(ticket);
+    pizza = factory->createPizza(t->typeOfPizza,t->sizeOfPizza);
+
+
+
+
 
 
     return pizza;
 
 }
+void PizzaShop::Process(Ticket* t){
+    cout<<"Processing Data"<<endl;
+    cout<<"The order number is "<<ticket->orderNumber<<endl;
+
+
+}
+
