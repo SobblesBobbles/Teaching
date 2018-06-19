@@ -16,20 +16,6 @@ PizzaShop::PizzaShop(){
 
 Pizza* PizzaShop::makePizza(Ticket* t){
 
-    ticket = t;
-
-
-    Pizza* pizza;
-
-    Process(ticket);
-    pizza = factory->createPizza(t->typeOfPizza,t->sizeOfPizza);
-
-
-
-
-
-
-    return pizza;
 
 }
 void PizzaShop::Process(Ticket* t){

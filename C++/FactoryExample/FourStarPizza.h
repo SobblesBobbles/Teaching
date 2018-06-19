@@ -13,7 +13,7 @@ class FourStarPizza : public PizzaShop {
 
 public:
     FourStarPizza();
-    Pizza* makePizza(Ticket* t);
+   virtual Pizza* makePizza(Ticket* t);
 
 };
 
