@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Headers_Classes.dir/main.cpp.o CMakeFiles/Headers_Classes.dir/Person.cpp.o  -o Headers_Classes 
