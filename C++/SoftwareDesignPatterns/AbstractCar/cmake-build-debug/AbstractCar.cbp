@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AbstractCar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AbstractCar">
+				<Option output="/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/AbstractCar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 AbstractCar"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AbstractCar/fast">
+				<Option output="/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/AbstractCar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 AbstractCar/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stephenobrien/CLionProjects/AbstractCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/BMW.cpp">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/BMW.h">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/BMWFactory.cpp">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/BMWFactory.h">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/Bridgestone.cpp">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/Bridgestone.h">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/Car.cpp">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/Car.h">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/CarFactory.cpp">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/CarFactory.h">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/Wheels.cpp">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/Wheels.h">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/main.cpp">
+			<Option target="AbstractCar"/>
+		</Unit>
+		<Unit filename="/Users/stephenobrien/CLionProjects/AbstractCar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

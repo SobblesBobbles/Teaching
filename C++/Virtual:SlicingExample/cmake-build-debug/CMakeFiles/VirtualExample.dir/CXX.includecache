@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/stephenobrien/CLionProjects/VirtualExample/Charmander.cpp
+Charmander.h
+/Users/stephenobrien/CLionProjects/VirtualExample/Charmander.h
+
+/Users/stephenobrien/CLionProjects/VirtualExample/Charmander.h
+Pokemon.h
+/Users/stephenobrien/CLionProjects/VirtualExample/Pokemon.h
+
+/Users/stephenobrien/CLionProjects/VirtualExample/Pokemon.cpp
+Pokemon.h
+/Users/stephenobrien/CLionProjects/VirtualExample/Pokemon.h
+
+/Users/stephenobrien/CLionProjects/VirtualExample/Pokemon.h
+iostream
+-
+
+/Users/stephenobrien/CLionProjects/VirtualExample/main.cpp
+iostream
+-
+Pokemon.h
+/Users/stephenobrien/CLionProjects/VirtualExample/Pokemon.h
+Charmander.h
+/Users/stephenobrien/CLionProjects/VirtualExample/Charmander.h
+
