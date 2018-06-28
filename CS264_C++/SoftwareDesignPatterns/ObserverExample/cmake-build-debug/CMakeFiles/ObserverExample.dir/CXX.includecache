@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/stephenobrien/CLionProjects/ObserverExample/Observer.cpp
+Observer.h
+/Users/stephenobrien/CLionProjects/ObserverExample/Observer.h
+iostream
+-
+
+/Users/stephenobrien/CLionProjects/ObserverExample/Observer.h
+
+/Users/stephenobrien/CLionProjects/ObserverExample/WeatherBalloon.cpp
+WeatherBalloon.h
+/Users/stephenobrien/CLionProjects/ObserverExample/WeatherBalloon.h
+iostream
+-
+
+/Users/stephenobrien/CLionProjects/ObserverExample/WeatherBalloon.h
+Observer.h
+/Users/stephenobrien/CLionProjects/ObserverExample/Observer.h
+vector
+-
+
+/Users/stephenobrien/CLionProjects/ObserverExample/main.cpp
+iostream
+-
+WeatherBalloon.h
+/Users/stephenobrien/CLionProjects/ObserverExample/WeatherBalloon.h
+Observer.h
+/Users/stephenobrien/CLionProjects/ObserverExample/Observer.h
+
