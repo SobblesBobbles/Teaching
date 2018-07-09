@@ -16,7 +16,7 @@ int main() {
 
 double temp;
 int sizeAtFirst = 5;
-    int counter= 0;
+int counter= 0;
 double array[sizeAtFirst];  //initial initialisation
 
 int i = 0;
