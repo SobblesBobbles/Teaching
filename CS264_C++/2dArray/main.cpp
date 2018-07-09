@@ -35,7 +35,7 @@ void sortArray (int array [4][4]){
 
 
 
-    for (int m = 0; m<3; m++) {     // iterates through the outter dimension of the aerray
+    for (int m = 0; m<4; m++) {     // iterates through the outter dimension of the aerray
         for (int i = 0; i < 3; i++) {   // makes sure that the correct amount of swaps happen
 
             for (int j = 0; j < 3; j++) {   //iterates through the array
