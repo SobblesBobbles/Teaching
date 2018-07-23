@@ -5,7 +5,7 @@
 #include "Book.h"
 
 
-
+// initialising the default constructor
 
 Book::Book(){
     title="undefined";
@@ -15,6 +15,8 @@ Book::Book(){
     author="undefined";
 }
 
+// overloaded constructor
+
 Book::Book(string title1, string author1, string genre1, int pages1, int yearOfPublication1) {
     title = title1;
     author = author1;
@@ -22,6 +24,8 @@ Book::Book(string title1, string author1, string genre1, int pages1, int yearOfP
     pages = pages1;
     yearOfPublication = yearOfPublication1;
 }
+
+// getters and setters
 
 void Book::setTitle(string t){
     title = t;
@@ -50,6 +54,7 @@ int Book::getPages(){
     return pages;
 }
 
+// printing the information within the class
 void Book::printInfo() {
     cout<<"Title : "<<title<<endl;
     cout<<"Author : "<<author<<endl;

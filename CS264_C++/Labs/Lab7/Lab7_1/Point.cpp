@@ -34,6 +34,6 @@ void Point::setY(int a) {
 
 
 //print function
-void Point::printPoint() {
+void Point::printPoint() {	//print the points
     cout<<"Point coordinates are ("<<x<<","<<y<<")."<<endl;
 }

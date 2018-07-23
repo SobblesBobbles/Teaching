@@ -7,6 +7,7 @@
 
 #include <iostream>
 
+//class
 class Rectangle {
 private:
     double length;
@@ -14,6 +15,7 @@ private:
     std::string colour;
 
 public:
+    // declarations
     Rectangle();
     Rectangle(double,double);
     void setLength(double);

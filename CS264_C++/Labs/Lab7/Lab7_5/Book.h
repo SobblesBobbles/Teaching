@@ -9,13 +9,14 @@
 using namespace std;
 class Book {
 private:
-
+    //private attributes
     int pages;
     int yearOfPublication;
     string author;
     string genre;
     string title;
 public:
+    // public functions
     Book();
     Book(string title1, string author1, string genre1, int pages1, int yearOfPublication1 );
     void setTitle(string t);

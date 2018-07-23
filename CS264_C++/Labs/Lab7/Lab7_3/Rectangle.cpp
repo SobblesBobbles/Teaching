@@ -6,16 +6,17 @@
 
 
 
-double calculateArea();
-double calculatePerimeter();
+// constructor
 
 Rectangle::Rectangle() {
     colour = "Grey";
 }
+//constructor overloaded
 Rectangle::Rectangle(double a, double b) {
     length = a;
     width = b;
 }
+// getters and setters
 
 void Rectangle::setLength(double l){
     length = l;
@@ -31,7 +32,6 @@ double Rectangle::getWidth() {
 }
 
 void Rectangle::setColour(std::string c) {
-
     colour = c;
 }
 

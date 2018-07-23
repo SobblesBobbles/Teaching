@@ -8,6 +8,7 @@
 
 #include <vector>
 
+// class that stores the main function
 int main(){
     //making book objects
 

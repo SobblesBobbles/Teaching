@@ -4,12 +4,14 @@
 
 #include "Dog.h"
 
+//constructor
 Dog::Dog(string breed1, bool isDangerous1, int age1) {
     breed = breed1;
     isDangerous = isDangerous1;
     age = age1;
 }
 
+//getters and setters
 string Dog::getBreed(){
     return breed;
 }
