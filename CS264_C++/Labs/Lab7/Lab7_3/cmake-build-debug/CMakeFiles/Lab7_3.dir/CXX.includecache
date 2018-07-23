@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/stephenobrien/CLionProjects/Lab7_3/Rectangle.cpp
+Rectangle.h
+/Users/stephenobrien/CLionProjects/Lab7_3/Rectangle.h
+
+/Users/stephenobrien/CLionProjects/Lab7_3/Rectangle.h
+iostream
+-
+
+/Users/stephenobrien/CLionProjects/Lab7_3/TestShapes.cpp
+TestShapes.h
+/Users/stephenobrien/CLionProjects/Lab7_3/TestShapes.h
+
+/Users/stephenobrien/CLionProjects/Lab7_3/TestShapes.h
+Rectangle.h
+/Users/stephenobrien/CLionProjects/Lab7_3/Rectangle.h
+
+/Users/stephenobrien/CLionProjects/Lab7_3/main.cpp
+iostream
+-
+Rectangle.h
+/Users/stephenobrien/CLionProjects/Lab7_3/Rectangle.h
+

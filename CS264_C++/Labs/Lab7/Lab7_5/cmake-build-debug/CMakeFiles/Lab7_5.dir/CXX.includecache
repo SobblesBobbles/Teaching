@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/stephenobrien/CLionProjects/Lab7_5/Book.cpp
+Book.h
+/Users/stephenobrien/CLionProjects/Lab7_5/Book.h
+
+/Users/stephenobrien/CLionProjects/Lab7_5/Book.h
+iostream
+-
+
+/Users/stephenobrien/CLionProjects/Lab7_5/Booktester.cpp
+Booktester.h
+/Users/stephenobrien/CLionProjects/Lab7_5/Booktester.h
+Book.h
+/Users/stephenobrien/CLionProjects/Lab7_5/Book.h
+vector
+-
+
+/Users/stephenobrien/CLionProjects/Lab7_5/Booktester.h
+
+/Users/stephenobrien/CLionProjects/Lab7_5/main.cpp
+iostream
+-
+
