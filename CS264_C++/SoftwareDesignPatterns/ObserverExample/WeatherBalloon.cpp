@@ -26,7 +26,7 @@ void WeatherBalloon::addObserver(Observer *observer) {          // add observer
 void WeatherBalloon::printObservers(){              // print the observer temperatures
 
     for (int i = 0; i<views.size(); i++){
-        cout<<"Observer "<<i<<" ="<<views[i]->temperature<<endl;
+        cout<<"Observer "<<i<<" ="<<views[i]->getTemperature()<<endl;
     }
 }
 

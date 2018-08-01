@@ -13,7 +13,7 @@ class WeatherBalloon {
 public:
 
     vector<Observer*> views;
-    int temperature;
+
 
     WeatherBalloon();
     void addObserver(Observer* observer);
@@ -21,7 +21,9 @@ public:
     void setTemperature(int);
     void updateAll(vector<Observer*> updateView);
 
+private:
 
+    int temperature;
 };
 
 

@@ -12,9 +12,14 @@ public:
 
 
     Observer();
-    int temperature;
 
     void update(int);
+
+    int getTemperature();
+
+private:
+    int temperature;
+
 
 };
 

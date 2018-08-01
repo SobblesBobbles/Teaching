@@ -36,6 +36,9 @@ int main() {
 
     balloon->printObservers();         // prints the new temperature
 
+    cout<<obs1->getTemperature()<<endl;
+    cout<<obs2->getTemperature()<<endl;
+
     delete obs1;
     delete obs2;
 

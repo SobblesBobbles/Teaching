@@ -16,3 +16,7 @@ void Observer::update(int t) {
     temperature = t;
 
 }
+
+int Observer::getTemperature() {
+    return temperature;
+}
